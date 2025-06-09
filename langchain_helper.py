@@ -5,7 +5,7 @@ from langchain.chains import SequentialChain
 from dotenv import load_dotenv
 import os
 load_dotenv()
-os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
+os.environ['OPENAI_API_KEY']='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'
 
 llm = ChatOpenAI(
     temperature=0.7,
